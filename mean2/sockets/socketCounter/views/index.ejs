@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Sockets</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type ="text/javascript">
+        $(document).ready(function (){
+    
+            var socket = io(); //1
+    		
+    		$('#add').click(function(e){
+    			e.preventDefault();
+    			socket.emit('click', {
+    			})
+    		})
+		    $('#reset').click(function () {  // 3 on submit, run function
+               console.log("reset");
+               socket.emit("reset", { // 4 send form to server
+              	});
+     		});
+
+    		socket.on('updated_count', function(data){
+    			$('#counter').html('The button has been pushed' + JSON.stringify(data.res)) + '  time(s)';
+    		})
+         })
+    </script>
+</head>
+
+<h1 id='counter'></h1>
+
+<button id='add'>Epic button</button>
+
+<button id='reset'>Reset</button>

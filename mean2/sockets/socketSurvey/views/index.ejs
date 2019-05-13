@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Sockets</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type ="text/javascript">
+        $(document).ready(function (){
+    
+            var socket = io(); //1
+    		
+    		$('#form').submit(function(e){
+    			e.preventDefault();
+    			socket.emit('posting_form', {
+    				name: $('#name').val(),
+    				loc: $('#loc').val(),
+    				lang: $('#lang').val(),
+    				comm: $('#comment').val()
+    			})
+    		})
+
+    		socket.on('updated_message', function(data){
+    			$('#msg').html('You emitted ....' + JSON.stringify(data.res));
+    		})
+    		socket.on('random_number', function(data){
+    			$('#num').html('You emitted ....' + JSON.stringify(data.res));
+    		})
+    	
+         })
+    </script>
+</head>
+<body>
+    <h1>Fun with sockets</h1>  
+	<h3 id='msg'></h3>
+	<h3 id='num'></h3>
+</body>
+</html>
+
+
+<form id='form'>
+	Name: <br>
+	<input type='text' id='name'><br>
+	Dojo Location: <br>
+	<input type='text' id='loc'> <br>
+	Favorite Language: <br>
+	<input type='text' id='lang'> <br>
+	Comment (optional): <br>
+	<input type='text area' id='comment'> <br>
+	<input type='submit'>
+</form>
