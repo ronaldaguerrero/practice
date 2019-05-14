@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Message Board</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	
+	<h1>The Dojo Message Board:</h1><br>
+
+    <form action='/add' method='post'>
+        Name: <input type='text' name='name'>
+        Message: <input type='text' name='message'>
+        <button>Post Message</button>
+    </form>
+
+
+	<% for(var x of msgs) { %>
+        <p><%= x.name %>: <%= x.message %></p> <a href='/dog/destroy/<%= x._id %>'>Delete</a>
+            <% for(var z of x.comments) { %>
+                <p><%= z.name %>: <%= z.comment %></p>
+            <% } %>
+        <form action='/addC/<%= x._id %>' method='post'>
+            Name: <input type='text' name='name'>
+            Comment: <input type='text' name='comment'>
+        <button>Post Comment</button>
+    </form>
+    <% } %>
+	
+</body>
+</html>
+
