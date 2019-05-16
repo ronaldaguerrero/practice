@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Pokemon</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(document).ready(function(){
+    	$.get("https://pokeapi.co/api/v2/pokemon/4/", function(data){
+                console.log("Received data from API", data);
+    		var mypokemon = data.name;
+    	})
+    })
+	</script>
+</head>
+<body>
+	 <h1>Welcome to Pokemon</h1>
+</body>
+</html>

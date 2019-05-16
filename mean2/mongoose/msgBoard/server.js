@@ -43,59 +43,9 @@ app.set('views', path.join(__dirname, './views'));
 app.set('view engine', 'ejs');
 // Routes
 // Root Request
-app.get('/', function(req, res) {
-    // This is where we will retrieve the users from the database and include them in the view page we will be rendering.
-    Message.find({}, function(err, msgs){
-      res.render('index', {msgs: msgs});
-    })
-})
-
-// Add User Request 
-app.post('/add', function(req, res) {
-  console.log("POST DATA", req.body);
-  // create a new User with the name and age corresponding to those from req.body
-  var message = new Message({name: req.body.name, message: req.body.message});
-  // Try to save that new user to the database (this is the method that actually inserts into the db) and run a callback function with an error (if any) from the operation.
-  message.save(function(err) {
-    // if there is an error console.log that something went wrong!
-    if(err) {
-      console.log('something went wrong');
-    } else { // else console.log that we did well and then redirect to the root route
-      console.log('successfully added a Message!');
-    }
-    res.redirect('/');
-  })
-})
-
-// Add User Request 
-app.post('/addC/:id', function(req, res) {
-  console.log("POST DATA", req.body);
-  // create a new User with the name and age corresponding to those from req.body
-  // Try to save that new user to the database (this is the method that actually inserts into the db) and run a callback function with an error (if any) from the operation.
-  Comment.create(req.body, function(err, data) {
-    // if there is an error console.log that something went wrong!
-    if(err) {
-      console.log('something went wrong');
-    } else { // else console.log that we did well and then redirect to the root route
-      Message.findOneAndUpdate({_id: req.params.id}, {$push: {comments: data}}, function(err,data){
-        if(err){
-           console.log('something went wrong');
-        } else {
-          console.log('successfully added a Comment!');
-        }
-      })
-    }
-  })
-  res.redirect('/');
-})
 
 
-app.get('/Message/destroy/:id', function(req,res){
-    Message.remove({_id: req.params.id}, function(err){
-        res.redirect('/');
-    })
-})
-
+require('./server/config/routes.js')(app)
 
 
 

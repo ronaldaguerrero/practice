@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Show</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	
+	<h1>Quote:</h1>
+	<% for(var q of quotes) { %>
+        <p><%= q.name %>: <%= q.quote %></p>
+        <p>at <%= moment(q.createdAt).format('LT MMMM Do YYYY') %>
+    <% } %>
+	
+</body>
+</html>
+
