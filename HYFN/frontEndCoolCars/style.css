@@ -1,0 +1,52 @@
+#main{
+    text-align: center;
+}
+
+#container{
+    width: 1000px;
+    height: 400px;
+    text-align:center; /* this centers the text */
+    margin: 0px auto;
+}
+
+.row{
+    width: 700px;
+    height: 150px;   
+    margin: 0px auto; /*this centers the rows */
+}
+
+.square{
+    height: 190px;
+    width: 190px;
+    margin: 6px;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'San Frediano Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('San Frediano Regular'), url('san-frediano-regular.woff') format('woff');
+    background-size: 150%;
+    background-color: grey;
+}
+
+.square p{
+    font-size: 13px;
+    color: white;
+}
+
+.square h1{
+    font-size: 50px;
+    color: white;
+}
+
+title{
+    align-content: center;
+}
+
+@font-face {
+    font-family: 'San Frediano Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('San Frediano Regular'), url('san-frediano-regular.woff') format('woff');
+}

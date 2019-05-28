@@ -1,0 +1,661 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"draw",
+				"drawRightStars\tfunction"
+			],
+			[
+				"even",
+				"evensAndOdds\tfunction"
+			],
+			[
+				"print",
+				"printLowReturnHigh\tfunction"
+			],
+			[
+				"es",
+				"escapedString\tvar"
+			],
+			[
+				"avenge",
+				"avengersAssemble"
+			],
+			[
+				"GVA",
+				"GVAjerky"
+			],
+			[
+				"g",
+				"getUser\tmethod"
+			],
+			[
+				"get",
+				"getQuote\tmethod"
+			],
+			[
+				"nameOfCorrec",
+				"nameOfCorrectQuoteAns\tproperty"
+			],
+			[
+				"wr",
+				"genWrong\tmethod"
+			],
+			[
+				"ge",
+				"genA\tmethod"
+			],
+			[
+				"correct",
+				"correctObj\tproperty"
+			],
+			[
+				"corr",
+				"correctObj\tproperty"
+			],
+			[
+				"correc",
+				"CorrectObj\tproperty"
+			],
+			[
+				"cha",
+				"charDataLen\tproperty"
+			],
+			[
+				"rest",
+				"restToShow\tmethod"
+			],
+			[
+				"resta",
+				"restaurant"
+			],
+			[
+				"prod",
+				"productInfo\tproperty"
+			],
+			[
+				"app",
+				"app-first-route"
+			],
+			[
+				"revi",
+				"reviews\tproperty"
+			],
+			[
+				"all",
+				"allReviews\tmethod"
+			],
+			[
+				"border",
+				"border\tproperty"
+			],
+			[
+				"person",
+				"personInst"
+			],
+			[
+				"pers",
+				"personInst"
+			],
+			[
+				"comm",
+				"commentSchema"
+			],
+			[
+				"message",
+				"messageSchema"
+			],
+			[
+				"comme",
+				"comments"
+			],
+			[
+				"comment",
+				"commentSchema"
+			],
+			[
+				"messa",
+				"messageSchema"
+			],
+			[
+				"time",
+				"timestamps"
+			],
+			[
+				"numb",
+				"number_of_belts"
+			],
+			[
+				"update",
+				"updateMany"
+			],
+			[
+				"updat",
+				"updateMany"
+			],
+			[
+				"stu",
+				"students"
+			],
+			[
+				"num",
+				"number_of_belts"
+			],
+			[
+				"inte",
+				"interests"
+			],
+			[
+				"luck",
+				"lucky_number"
+			],
+			[
+				"sear",
+				"search_params"
+			],
+			[
+				"sp",
+				"speakWisdom"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"r",
+				"rAnswer"
+			],
+			[
+				"fn",
+				"FName"
+			],
+			[
+				"Vehic",
+				"VehicleConstructor"
+			],
+			[
+				"Vehi",
+				"VehicleConstructor"
+			],
+			[
+				"greet",
+				"greetingWithName"
+			],
+			[
+				"HashM",
+				"HashMap"
+			],
+			[
+				"array",
+				"arrayWithOdds"
+			],
+			[
+				"Strin",
+				"StringManipulator"
+			],
+			[
+				"n_",
+				"n_alpha"
+			],
+			[
+				"size",
+				"size_from_form"
+			],
+			[
+				"pric",
+				"price_from_form"
+			],
+			[
+				"secon",
+				"second_app"
+			],
+			[
+				"fla",
+				"flashColor"
+			],
+			[
+				"li",
+				"lightskyblue"
+			],
+			[
+				"set",
+				"setInterval"
+			],
+			[
+				"play",
+				"playerOrder"
+			],
+			[
+				"inter",
+				"intervalId"
+			],
+			[
+				"turn",
+				"turnCounter"
+			],
+			[
+				"on",
+				"onButton"
+			],
+			[
+				"stric",
+				"strictButton"
+			],
+			[
+				"pipe",
+				"pipeSouth"
+			],
+			[
+				"comp",
+				"compChoice"
+			],
+			[
+				"comput",
+				"computerScore"
+			],
+			[
+				"us",
+				"users_with_email"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"SHow",
+				"ShowManager"
+			],
+			[
+				"books",
+				"books_authors_app"
+			],
+			[
+				"auto",
+				"auto_now_add"
+			],
+			[
+				"row",
+				"grid-auto-rows\tproperty"
+			],
+			[
+				"random",
+				"randomNum"
+			],
+			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
+				"int",
+				"Integer"
+			],
+			[
+				"displ",
+				"display_account_info"
+			],
+			[
+				"make",
+				"make_withdrawal"
+			],
+			[
+				"mak",
+				"make_withdrawal"
+			],
+			[
+				"dis",
+				"display_user_balance"
+			],
+			[
+				"make_",
+				"make_withdrawal"
+			],
+			[
+				"account",
+				"account_balance"
+			],
+			[
+				"acc",
+				"account_balance"
+			],
+			[
+				"fav",
+				"fave_food2"
+			],
+			[
+				"fa",
+				"fave_food2"
+			],
+			[
+				"fave",
+				"fave_food1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"htl",
+				"Set Syntax: HTML"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Mongoose/messageBoard/views/index.ejs",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/taskApi_continued/public/src/app/app.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/ajax/views/index.ejs",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/ajax/server.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/surveyForm/views/index.ejs",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/surveyForm/server.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/surveyForm/views/result.ejs",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/counter/views/index.ejs",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/counter/server.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/postGetSession/views/index.ejs",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/fullServer/package.json",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/fullServer/server.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/fullServer/views/index.ejs",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/notes.txt",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/express/ejsCarsAndCats/server.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/node_server/ninjas.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/node_server/index.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/node_server/app.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Test Folder/mean2/node_server/dojos.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/eventListener.jsx",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/thisComponent.jsx",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/conditionComponents.jsx",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/logicInRenderFunc.jsx",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/squares.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/varComponent.jsx",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/multilineJSX.jsx",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/renderComponent.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/displayTime.jsx",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/helloDojo.jsx",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/var.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/jsxExpression.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/onClick.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/fundamentals/test.jsx",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/sll.js",
+		"/Users/xh0tsaucex/Desktop/cloudsploit/scans_azure/plugins/azure/appservice/identityEnabled.js",
+		"/Users/xh0tsaucex/Desktop/cloudsploit/scans_new_plugin/plugins/azure/appservice/httpsEnabled.js",
+		"/Users/xh0tsaucex/Desktop/scans/README.md",
+		"/Users/xh0tsaucex/Desktop/scans/plugins/aws/ec2/encryptedAmi.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/tester.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/React/tester.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/algosChapter2.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/basic13_2.0.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/algosChapter1.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/algosChapter2b.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/BackboneJS/backboneCollections/index.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/BackboneJS/backboneModels/js/models.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/UnderscoreJS/warmup.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/UnderscoreJS/backboneTester.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/java/springProjects/monopoly/src/main/java/com/codingdojo/monopoly/controllers/GameCtrl.java",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/java/springProjects/monopoly/src/main/resources/static/js/script.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/java/springProjects/monopoly/src/main/java/com/codingdojo/monopoly/controllers/DiceCtrl.java",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/stockPrices.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/simplePigLatin.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/JavaScript/snake/index.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/HTML/work/CNAME",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/duplicateEncode.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/HTML/work/blog.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/HTML/LandingPage/RAG",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Python/django/django_full_stack/ecommerce/gitignore",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Python/projects/ecommerce/requirements.txt",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Python/django/django_full_stack/ecommerce/requirements.txt",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Python/projects/ecommerce/apps/second_app/templates/second_app/index.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/regexPWvalidation.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/wordsOrder.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Python/django/django_full_stack/ecommerce/ecommerce/settings.py",
+		"/Users/xh0tsaucex/Desktop/mySQL/Monopoly.sql",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/server/controllers/mainCtrl.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/server/config/routes.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/public/src/facicon.ico",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Algorithms/createPhoneNumber.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/public/tsconfig.json",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/public/angular.json",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/public/src/custom.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/public/src/winWheel.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/public/node_modules/javascript/dist/winWheel.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/public/src/app/game/game.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/cakes/public/src/app/app.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/pokemonApi/public/src/app/http.service.spec.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/pokemonApi/public/src/app/app.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/gameOfThronesTriviaApi/server.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/public/src/app/all-rests/all-rests.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/public/src/app/reviews/reviews.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/public/src/app/all-rests/all-rests.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/public/src/app/edit-rest/edit-rest.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/public/src/app/edit-rest/edit-rest.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/public/src/app/new-rest/new-rest.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/public/src/app/new-rest/new-rest.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/server/models/restaurant.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/server/config/mongoose.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/public/src/app/http.service.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/server/config/routes.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/server.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/public/src/app/app.module.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurantsBE/server/controllers/mainCtrl.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurant/public/src/app/app.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurant/public/src/app/second-route/second-route.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurant/public/src/app/app-routing.module.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurant/public/src/app/third-route/third-route.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurant/public/src/app/third-route/third-route.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurant/public/src/app/http.service.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurant/public/src/app/first-route/edit-product/edit-product.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/restaurant/public/src/app/first-route/edit-product/edit-product.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/productManager/public/src/app/first-route/first-route.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/productManager/server/models/task.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/productManager/server.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/productManager/server/config/routes.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/productManager/server/controllers/mainCtrl.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/productManager/public/src/app/app.module.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/productManager/public/src/app/first-route/new-product/new-product.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/productManager/public/src/app/first-route/edit-product/edit-product.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/productManager/public/src/app/third-route/third-route.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/cakes/public/src/index.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/cakes/public/src/app/task/task.component.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/cakes/public/src/app/app.module.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/cakes/server/controllers/cakeCtrl.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/cakes/server/models/task.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/cakes/server/controllers/taskCtrl.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/cakes/server/config/mongoose.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/taskApi/public/src/app/app.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/taskApi/public/src/app/task/task.component.html",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/taskApi/server/config/routes.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/taskApi/server/controllers/taskCtrl.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Mongoose/quotes/views/quotes.ejs",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Mongoose/quotes/server.js",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/taskApi/public/src/app/app.module.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Mean/Angular/taskApi/public/src/app/task/task.component.spec.ts",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Python/django/django_intro/ninja_gold/manage.py",
+		"/Users/xh0tsaucex/Desktop/coding_dojo/Python/django/django_intro/ninja_gold/ninja_gold/wsgi.py"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 262.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
