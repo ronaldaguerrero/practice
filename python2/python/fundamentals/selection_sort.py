@@ -1,22 +1,16 @@
 arr = [5,3,6,2,1]
 
 def selectionsort(arr):
+	# loop through
 	for i in range(len(arr)):
-		# print('this is i', i)
-
+		# loop again
 		for j in range(i+1, len(arr)):
+			# check if i is greater than j
 			if arr[i] > arr[j]:
-				print('this is j', arr[j])
-
+				# swap
 				temp = arr[i]
-				print('this is the value of temp', arr[i])
-				
 				arr[i] = arr[j]
-				print('arr[i] is being changed to arr[j]', arr[j])
-				
 				arr[j] = temp
-				print('arr[j] is being changed to temp')
-				
 				print(arr)
 
 	return arr
