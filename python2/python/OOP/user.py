@@ -3,7 +3,6 @@
 # eg. "User: Guido van Rossum, Balance: $150
 # BONUS: transfer_money(self, other_user, amount) - have this method decrease the user's balance by the amount and add that amount to other other_user's balance
 
-
 class User:
 	def __init__(self, username, email_address):
 		self.name = username
