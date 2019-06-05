@@ -1,8 +1,3 @@
-# make_withdrawal(self, amount) - have this method decrease the user's balance by the amount specified
-# display_user_balance(self) - have this method print the user's name and account balance to the terminal
-# eg. "User: Guido van Rossum, Balance: $150
-# BONUS: transfer_money(self, other_user, amount) - have this method decrease the user's balance by the amount and add that amount to other other_user's balance
-
 class BankAccount:
 	def __init__(self, int_rate, balance, acct_type):
 		self.interest_rate = int_rate
@@ -58,50 +53,19 @@ class BankAccount:
 			else:
 				print('Insufficient funds: account balance is 0')
 
-class User:
-	def __init__(self, username, email_address, a_type):
-		self.name = username
-		self.email = email_address
-		self.account = BankAccount(int_rate=0.02, balance=0, acct_type=a_type)	# added this line
+ron = BankAccount(0.05, 200, 'checking')
+print('expectout output is 200')
+ron.display_account_info('checking')
+print('********')
 
-	def make_deposit(self, amount, acct_type):
-		self.account.deposit(amount, acct_type)
-		return self
-
-	def make_withdrawal(self, amount, acct_type):
-		self.account.withdraw(amount, acct_type)
-		return self
-
-	def display_user_balance(self, acct_type):
-		if(acct_type == 'saving'):
-			print(self.name, self.account.saving_bal)
-		if(acct_type == 'checking'):
-			print(self.name, self.account.checking_bal)
-		return self
-
-	def transfer_money(self, other_user, amount, acct_type):
-		self.account.withdraw(amount, acct_type)
-		other_user.account.deposit(amount, acct_type)
-		return self
-
-guido = User("Guido van Rossum", "guido@python.com", 'checking')
-monty = User("Monty Python", "monty@python.com", 'saving')
-
-guido.make_deposit(100,'checking').make_deposit(200,'checking')
-
-monty.make_deposit(50,'saving')
-
-print('*************')
-print('guido acct bal, below should be 300')
-guido.display_user_balance('checking')	
-
-print('*************')
-print('monty acct bal, below should be 50 ')
-monty.display_user_balance('saving')
-
-print('*************')
-print('output should be 100')
-guido.make_withdrawal(200, 'checking').display_user_balance('checking')
+print('expectout output is 1100+')
+ron = BankAccount(0.10, 1000, 'saving')
+ron.deposit(100, 'saving').yield_interest('saving').display_account_info('saving')
 
 
 
+
+
+
+# devon = BankAccount(0.05, 0, 'checking')
+# devon.withdraw(100)
