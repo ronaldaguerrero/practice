@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Checkerboard</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+       <!-- linking a css style sheet -->
+		<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+		<style>
+			.one{
+				height: 50px;
+				width: 50px;
+				background: black;
+				display: inline-block;
+			}
+			.two{
+				height: 50px;
+				width: 50px;
+				background: red;	
+				display: inline-block;
+			}
+		</style>
+    </head>
+    <body>
+        <table>
+	    {% for x in range(0,times): %} 
+	        <tr>
+	        {% for x in range(0,times): %}
+				<td class='one'></td>
+	        	<td class='two'></td>
+			{% endfor %}
+			</tr>
+			<tr>
+			{% for x in range(0,times): %}
+	        	<td class='two'></td>
+	        	<td class='one'></td>
+			{% endfor %}
+			</tr>
+		{% endfor %}
+		</table>
+    </body>
+</html>
