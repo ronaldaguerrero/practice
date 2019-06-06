@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Playground</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        .square{
+			height: 100px;
+			width: 100px;
+			display: inline-block;
+			background-color: {{ color }};
+			border: 3px solid black;
+		}
+    	</style>
+    </head>
+    <body>
+        <h1>Welcome!</h1>
+        {% for x in range(0, times): %}
+        	<div class='square'></div>
+        {% endfor %}
+    </body>
+</html>
