@@ -1,10 +1,14 @@
-def bubblesort(arr): #swap pairs
-    for i in range(len(arr)-1): # start at beginning and loop to end
-        for j in range(len(arr)-1-i): # start at beginning and loop to end minus 'i' because the largest # is at the end
-            if arr[j]>arr[j+1]: # if current is larger then next
-                arr[j], arr[j+1] = arr[j+1], arr[j] # swap
-    return arr
+def selection_sort(arr):
+	for i in range(len(arr)):
+		mIdx = i
+		for j in range(i, len(arr)):
+			if(arr[mIdx] > arr[j]):
+				mIdx = j
+		print('before')
+		print(arr)
+		arr[mIdx], arr[i] = arr[i], arr[mIdx]
+		print('after')
+		print(arr)
+	print(arr)
 
-arr = [54,26,93,17,77]
-bubblesort(arr)
-print(arr)
+selection_sort([5,3,2,1,4])
