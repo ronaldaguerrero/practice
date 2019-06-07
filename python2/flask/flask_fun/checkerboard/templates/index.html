@@ -13,28 +13,36 @@
 			.one{
 				height: 50px;
 				width: 50px;
-				background: black;
+			{% if (col1 == none): %}
+				background-color: black;
+			{% else: %}
+				background-color: {{ col1 }};
+			{% endif %}
 				display: inline-block;
 			}
 			.two{
 				height: 50px;
 				width: 50px;
-				background: red;	
+			{% if (col1 == none): %}
+				background-color: red;
+			{% else: %}
+				background-color: {{ col2 }};
+			{% endif %}
 				display: inline-block;
 			}
 		</style>
     </head>
     <body>
         <table>
-	    {% for x in range(0,times): %} 
+	    {% for x in range(0,times): %} <!-- this represents how many rows to display  -->
 	        <tr>
-	        {% for x in range(0,times): %}
+	        {% for x in range(0,y): %} <!-- this represents the first row -->
 				<td class='one'></td>
 	        	<td class='two'></td>
 			{% endfor %}
 			</tr>
 			<tr>
-			{% for x in range(0,times): %}
+			{% for x in range(0,y): %} <!-- this represents the second row -->
 	        	<td class='two'></td>
 	        	<td class='one'></td>
 			{% endfor %}
