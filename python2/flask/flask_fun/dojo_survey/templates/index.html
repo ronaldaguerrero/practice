@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Dojo Survey</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+       <form action='/result' method='post'>
+       		Name: <br>
+       		<input type='text' name='name'><br>
+       		Dojo: <br>
+       		<select name='loc'>
+       			<option value='la'>LA</option>
+       			<option value='oc'>OC</option>
+       			<option value='sea'>SEA</option>
+       			<option value='tx'>TX</option>
+       		</select> <br>
+       		Language: <br>
+       		<select name ='lang'>
+       			<option value='py'>Python</option>
+       			<option value='j'>Java</option>
+       			<option value='c'>C#</option>
+       			<option value='r'>Ruby</option>
+       		</select> <br>
+       		Team: <br>
+       		<input type='radio' name='team' value='TOR'>Raptors<br>
+       		<input type='radio' name='team' value='GS'>Warriors<br>
+       		Graduated: <br>
+       		<input type='checkbox' name='grad' value='Yes'>Yes<br>
+       		<input type='checkbox' name='grad' value='No'>No<br>
+       		Comment: <br>
+       		<textarea name='comment'></textarea>
+       		<button>Submit</button>
+       </form>
+    </body>
+</html>
