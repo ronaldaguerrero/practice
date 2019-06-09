@@ -1,0 +1,3 @@
+Refer to dojo_fruit_store
+
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}">
