@@ -9,3 +9,5 @@ def selection_sort(arr):
     return arr
     
 selection_sort([5,4,2,1,3])
+
+

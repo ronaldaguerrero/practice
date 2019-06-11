@@ -1,0 +1,19 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Edit User</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        {% for user in user %}
+        <form action="/edit/user/{{ user['id'] }}" method='POST'>
+        	<p>Name: <input type='text' name='name' value="{{ user['name'] }}"></p>
+        	<p>Email: <input type='email' name='email' value="{{ user['email'] }}"></p>
+        	<button>Submit</button>
+        </form>
+        {% endfor %}
+    </body>
+</html>

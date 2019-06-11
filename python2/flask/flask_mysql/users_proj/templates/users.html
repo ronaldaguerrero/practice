@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Users Table</title>
+    </head>
+    <body>
+    	<h1>All the Users</h1>
+        <table>
+        	<tr>
+        		<th>Id</th>
+        		<th>Name</th>
+        		<th>Email</th>
+        		<th>Created At</th>
+        		<th>Actions</th>
+        	</tr>
+        	{% for user in all_users %}
+        	<tr>
+        		<td>{{ user['id'] }}</td>
+        		<td>{{ user['name'] }}</td>
+        		<td>{{ user['email'] }}</td>
+        		<td>{{ user['created_at'] }}</td>
+        		<td><a href="user/{{ user['id'] }}">Show</a> | <a href="user/{{ user['id'] }}/edit">Edit</a> | <a href="delete/{{ user['id'] }}">Delete</a> </td>
+        	</tr>
+        	{% endfor %}
+        </table>
+    </body>
+</html>
