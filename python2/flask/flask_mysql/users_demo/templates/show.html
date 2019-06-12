@@ -1,0 +1,17 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Show User</title>
+    </head>
+    <body>
+    	{% for user in user %}
+        <h1>User ID: {{ user['id'] }}</h1>
+        <p>Full Name: {{ user['first_name'] }} {{ user['last_name'] }}</p>
+        <p>Email: {{ user['email'] }}</p>
+        <p>Created on: {{ user['created_at'] }}</p>
+        <p>Updated on: {{ user['updated_at'] }}</p>
+        {% endfor %}
+    </body>
+</html>
