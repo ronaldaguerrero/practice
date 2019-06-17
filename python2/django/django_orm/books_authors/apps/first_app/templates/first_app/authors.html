@@ -1,0 +1,35 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Add Author</title>
+    </head>
+    <body>
+       <h1>Add a Author</h1>
+       <form action='/add_author' method='post'>
+       	{% csrf_token %}
+       	<label for='first_name'>First Name:</label><br>
+       	<input type='text' id='first_name' name='first_name'><br>
+        <label for='last_name'>Last Name:</label><br>
+        <input type='text' id='last_name' name='last_name'><br>
+       	<button>Submit</button>
+       </form>
+
+	    <h1>All Authors</h1>
+	    <table>
+	    	<tr>
+	    		<th>ID</th>
+	    		<th>Name</th>
+	    		<th>Action</th>
+	    	</tr>
+	    	{% for author in all_authors %}
+	    	<tr>
+	    		<td>{{ author.id }}</td>
+	    		<td>{{ author.first_name }} {{ author.last_name }}</td>
+	    		<td><a href='view/{{ author.id }}'>View</a></td>
+	    	</tr>
+	    	{% endfor %}
+	    </table>
+    </body>
+</html>
