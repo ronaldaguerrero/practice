@@ -1,10 +1,8 @@
-def selection_sort(arr):
+def bubble_sort(arr):
 	for i in range(len(arr)):
-		mIdx = i
-		for j in range(i+1, len(arr)):
-			if (arr[mIdx] > arr[j]):
-				mIdx = j
-		arr[mIdx], arr[i] = arr[i], arr[mIdx]
-		print(arr)
+		for j in range(len(arr)-i-1):
+			if (arr[j] > arr[j+1]):
+				arr[j], arr[j+1] = arr[j+1], arr[j]
+	print(arr)
 
-selection_sort([5,3,2,1,4])
+bubble_sort([1,5,3,4,2])
