@@ -1,0 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Create</title>
+    </head>
+    <body>
+    	<a href="shows">Go Back</a>
+    	<h1>Add a New Show</h1>
+       <form action='/add_show' method='post'>
+       		{% csrf_token %}
+       		<label for='title'>Title:</label><br>
+       		<input type='text' id='title' name='title'><br>
+       		<label for='network'>Network:</label><br>
+       		<input type="text" name="network" id='network'><br>
+       		<label for='date'>Release Date:</label><br>
+       		<input type="date" name="date" id="date"><br>
+       		<label for='desc'></label>Description:<br>
+       		<textarea id=desc name= desc></textarea><br>
+       		<button>Create</button>
+       </form>
+
+       <h1>All Shows</h1>
+       <table>
+       		<th>
+       			<td>ID</td>
+       			<td>Title</td>
+       			<td>Network</td>
+       			<td>Release Date</td>
+       			<td>Actions</td>
+       		</th>
+       		{% for show in all_shows %}
+       		<tr>
+       			<td>{{ show.id }}</td>
+       			<td>{{ show.title }}</td>
+       			<td>{{ show.network }}</td>
+       			<td>{{ show.date }}</td>
+       			<td></td>
+       		</tr>
+       		{% endfor %}
+       </table>
+    </body>
+</html>
