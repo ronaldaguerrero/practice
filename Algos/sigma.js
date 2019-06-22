@@ -13,3 +13,11 @@ function factorial(num){
 	}	
 	console.log(sum);
 }
+
+authors
+
+books
+
+authors.objects.all.get()
+
+books.object.all().authors.exclude()

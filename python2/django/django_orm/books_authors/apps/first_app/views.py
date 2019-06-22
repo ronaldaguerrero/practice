@@ -22,7 +22,6 @@ def view_book(req, id):
 		'non_authors' : Author.objects.all()
 
 	}
-	print(context)
 	return render(req, 'first_app/book_view.html', context)
 
 

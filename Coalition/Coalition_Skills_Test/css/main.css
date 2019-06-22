@@ -1,0 +1,102 @@
+*{
+	font-family: 'Noto Sans HK', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	height: 700px;
+	width: 1400px;
+}
+#top_bar{
+	height:105px;
+	width: auto;
+}
+#orng_bar{
+	height: 30px;
+	width: 1400px;
+	background-color: #FF6122;
+	vertical-align: center;
+}
+#orng_bar, p{
+	display: inline-block;
+}
+#left{
+	margin-left: 15%;
+	display: inline-block;
+}
+#right{
+	display: inline-block;
+	margin-left: 33%;
+}
+#lower_bar{
+	height: auto;
+	background-color: #F8F8F8;
+}
+#lower_bar h1{
+	margin-left: 15%;
+}
+#upper_nav{
+	margin-left: 13%;
+}
+#upper_nav, h1, ul{
+	display: inline-block;
+}
+#upper_nav li{
+	display: inline;
+	padding: 7px;
+}
+#center{
+	margin-left: 13%;
+	width: 65%;
+}
+#center p{
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+#medium{
+	font-size: 15px;
+	color: black;
+}
+.small{
+	font-size: 13px;
+}
+#info_head h2, .block h2{
+	color: #FF6122;
+}
+.block{
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+}
+.block form input{
+	background-color: grey;
+}
+.block #wide{
+	width: 340px;
+}
+.block .half{
+	width: 165.5px;
+}
+.block #msg{
+	margin-top: 2px;
+	height: 75px;
+	width: 340px;
+}
+.button{
+	margin-top: 15px;
+	background-color: #FF6122;
+	padding: 8px 32px;
+}
+.fa {
+	padding: 5px;
+	font-size: 25px;
+	width: 25px;
+	text-align: center;
+	text-decoration: none;
+	margin: 1px 2px;
+	color: white;
+	background-color: #F8F8F8;
+}
+.fa-facebook{
+	background-color: grey;
+}
